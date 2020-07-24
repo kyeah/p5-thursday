@@ -4,5 +4,5 @@ function setup() {
 
 function draw() {
   background(220);
-  ellipse(width/2, height/2, 20)
+  ellipse(width/2, height/2, 100*sin(0.01*frameCount))
 }
